@@ -1,0 +1,508 @@
+{
+  "animals": [
+    {
+      "id": 1001,
+      "organization_id": "12.345.678/0001-00",
+      "url": "https://adotaweb.org/pets/1001",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "SRD",
+        "secondary": null,
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "Marrom",
+        "secondary": "Branco",
+        "tertiary": null
+      },
+      "age": "Adult",
+      "gender": "Male",
+      "size": "Medium",
+      "coat": "Short",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "declawed": false,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": { "children": true, "dogs": true, "cats": false },
+      "tags": [],
+      "name": "Thor",
+      "description": "Sou o Thor, adoro brincar no quintal e sou ótimo companheiro.",
+      "organization_animal_id": null,
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2025-06-01T10:00:00+0000",
+      "published_at": "2025-06-01T10:00:00+0000",
+      "distance": null,
+      "contact": {
+        "email": "contato@amigopet.org",
+        "phone": "(11) 1111-1111",
+        "address": {
+          "address1": "Rua das Patinhas, 123",
+          "address2": null,
+          "city": "Ribeirão Preto",
+          "state": "SP",
+          "postcode": "14010-000",
+          "country": "BR"
+        }
+      },
+      "_links": {}
+    },
+    {
+      "id": 1002,
+      "organization_id": "12.345.678/0001-00",
+      "url": "https://adotaweb.org/pets/1002",
+      "type": "Cat",
+      "species": "Cat",
+      "breeds": {
+        "primary": "SRD",
+        "secondary": null,
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": { "primary": "Cinza", "secondary": null, "tertiary": null },
+      "age": "Young",
+      "gender": "Female",
+      "size": "Small",
+      "coat": "Medium",
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": true,
+        "declawed": false,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": { "children": true, "dogs": true, "cats": true },
+      "tags": [],
+      "name": "Luna",
+      "description": "Oi, sou a Luna! Brinco de perseguir bolinhas e adoro carinho.",
+      "organization_animal_id": null,
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2025-06-02T11:00:00+0000",
+      "published_at": "2025-06-02T11:00:00+0000",
+      "distance": null,
+      "contact": {
+        "email": "contato@amigopet.org",
+        "phone": "(11) 1111-1111",
+        "address": {
+          "address1": "Av. Brasil, 100",
+          "address2": null,
+          "city": "Bonfim Paulista",
+          "state": "SP",
+          "postcode": "14080-000",
+          "country": "BR"
+        }
+      },
+      "_links": {}
+    },
+    {
+      "id": 1003,
+      "organization_id": "12.345.678/0001-00",
+      "url": "https://adotaweb.org/pets/1003",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Poodle",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": { "primary": "Branco", "secondary": null, "tertiary": null },
+      "age": "Senior",
+      "gender": "Female",
+      "size": "Small",
+      "coat": "Curly",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": false,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": { "children": false, "dogs": true, "cats": false },
+      "tags": [],
+      "name": "Mel",
+      "description": "Me chamo Mel, sou calma e adoro um colo quentinho.",
+      "organization_animal_id": null,
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2025-06-03T09:30:00+0000",
+      "published_at": "2025-06-03T09:30:00+0000",
+      "distance": null,
+      "contact": {
+        "email": "contato@amigopet.org",
+        "phone": "(11) 1111-1111",
+        "address": {
+          "address1": "Rua das Flores, 45",
+          "address2": null,
+          "city": "Sertãozinho",
+          "state": "SP",
+          "postcode": "14160-000",
+          "country": "BR"
+        }
+      },
+      "_links": {}
+    },
+    {
+      "id": 1004,
+      "organization_id": "12.345.678/0001-00",
+      "url": "https://adotaweb.org/pets/1004",
+      "type": "Cat",
+      "species": "Cat",
+      "breeds": {
+        "primary": "Siamese",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": { "primary": "Bege", "secondary": "Marrom", "tertiary": null },
+      "age": "Baby",
+      "gender": "Male",
+      "size": "Small",
+      "coat": "Short",
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": true,
+        "declawed": false,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": { "children": true, "dogs": false, "cats": true },
+      "tags": [],
+      "name": "Simba",
+      "description": "Ei, eu sou o Simba! Gosto de explorar e ronrono alto.",
+      "organization_animal_id": null,
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2025-06-04T08:15:00+0000",
+      "published_at": "2025-06-04T08:15:00+0000",
+      "distance": null,
+      "contact": {
+        "email": "contato@amigopet.org",
+        "phone": "(11) 1111-1111",
+        "address": {
+          "address1": "Praça Central, 10",
+          "address2": null,
+          "city": "Jardinópolis",
+          "state": "SP",
+          "postcode": "14160-970",
+          "country": "BR"
+        }
+      },
+      "_links": {}
+    },
+    {
+      "id": 1005,
+      "organization_id": "12.345.678/0001-00",
+      "url": "https://adotaweb.org/pets/1005",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Bulldog",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": { "primary": "Branco", "secondary": "Preto", "tertiary": null },
+      "age": "Young",
+      "gender": "Male",
+      "size": "Medium",
+      "coat": "Short",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "declawed": false,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": { "children": true, "dogs": true, "cats": true },
+      "tags": [],
+      "name": "Bruce",
+      "description": "Bruce aqui! Sou energético e adoro brincar de buscar bolinha.",
+      "organization_animal_id": null,
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2025-06-05T12:00:00+0000",
+      "published_at": "2025-06-05T12:00:00+0000",
+      "distance": null,
+      "contact": {
+        "email": "contato@amigopet.org",
+        "phone": "(11) 1111-1111",
+        "address": {
+          "address1": "Rua das Patinhas, 123",
+          "address2": null,
+          "city": "Cravinhos",
+          "state": "SP",
+          "postcode": "14145-000",
+          "country": "BR"
+        }
+      },
+      "_links": {}
+    },
+    {
+      "id": 1006,
+      "organization_id": "98.765.432/0001-99",
+      "url": "https://adotaweb.org/pets/1006",
+      "type": "Cat",
+      "species": "Cat",
+      "breeds": {
+        "primary": "SRD",
+        "secondary": null,
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": { "primary": "Preto", "secondary": null, "tertiary": null },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Small",
+      "coat": "Medium",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": false,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": { "children": false, "dogs": true, "cats": true },
+      "tags": [],
+      "name": "Mia",
+      "description": "Mia aqui! Sou meio reservada, mas amo um cafuné depois.",
+      "organization_animal_id": null,
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2025-06-06T15:45:00+0000",
+      "published_at": "2025-06-06T15:45:00+0000",
+      "distance": null,
+      "contact": {
+        "email": "oi@bicharada.org",
+        "phone": "(21) 2222-2222",
+        "address": {
+          "address1": "Av. Bicharada, 456",
+          "address2": null,
+          "city": "Ribeirão Preto",
+          "state": "SP",
+          "postcode": "14010-000",
+          "country": "BR"
+        }
+      },
+      "_links": {}
+    },
+    {
+      "id": 1007,
+      "organization_id": "98.765.432/0001-99",
+      "url": "https://adotaweb.org/pets/1007",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Beagle",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": { "primary": "Tricolor", "secondary": null, "tertiary": null },
+      "age": "Young",
+      "gender": "Male",
+      "size": "Medium",
+      "coat": "Short",
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": true,
+        "declawed": false,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": { "children": true, "dogs": true, "cats": true },
+      "tags": [],
+      "name": "Scooby",
+      "description": "Eu sou o Scooby! Amo detetives e seguir cheiros.",
+      "organization_animal_id": null,
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2025-06-07T09:10:00+0000",
+      "published_at": "2025-06-07T09:10:00+0000",
+      "distance": null,
+      "contact": {
+        "email": "oi@bicharada.org",
+        "phone": "(21) 2222-2222",
+        "address": {
+          "address1": "Av. Bicharada, 456",
+          "address2": null,
+          "city": "Bonfim Paulista",
+          "state": "SP",
+          "postcode": "14080-000",
+          "country": "BR"
+        }
+      },
+      "_links": {}
+    },
+    {
+      "id": 1008,
+      "organization_id": "98.765.432/0001-99",
+      "url": "https://adotaweb.org/pets/1008",
+      "type": "Cat",
+      "species": "Cat",
+      "breeds": {
+        "primary": "Persa",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": { "primary": "Branco", "secondary": "Cinza", "tertiary": null },
+      "age": "Adult",
+      "gender": "Male",
+      "size": "Small",
+      "coat": "Long",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "declawed": false,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": { "children": false, "dogs": false, "cats": true },
+      "tags": [],
+      "name": "Bolinha",
+      "description": "Bolinha aqui! Sou tranquilo e gosto de ficar em janelas.",
+      "organization_animal_id": null,
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2025-06-08T14:00:00+0000",
+      "published_at": "2025-06-08T14:00:00+0000",
+      "distance": null,
+      "contact": {
+        "email": "oi@bicharada.org",
+        "phone": "(21) 2222-2222",
+        "address": {
+          "address1": "Praça Central, 10",
+          "address2": null,
+          "city": "Sertãozinho",
+          "state": "SP",
+          "postcode": "14160-000",
+          "country": "BR"
+        }
+      },
+      "_links": {}
+    },
+    {
+      "id": 1009,
+      "organization_id": "98.765.432/0001-99",
+      "url": "https://adotaweb.org/pets/1009",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Labrador",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": { "primary": "Amarelo", "secondary": null, "tertiary": null },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Large",
+      "coat": "Short",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "declawed": false,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": { "children": true, "dogs": true, "cats": false },
+      "tags": [],
+      "name": "Melancia",
+      "description": "Me chamo Melancia! Amo água e nado em piscina.",
+      "organization_animal_id": null,
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2025-06-09T10:30:00+0000",
+      "published_at": "2025-06-09T10:30:00+0000",
+      "distance": null,
+      "contact": {
+        "email": "oi@bicharada.org",
+        "phone": "(21) 2222-2222",
+        "address": {
+          "address1": "Av. Bicharada, 456",
+          "address2": null,
+          "city": "Jardinópolis",
+          "state": "SP",
+          "postcode": "14160-970",
+          "country": "BR"
+        }
+      },
+      "_links": {}
+    },
+    {
+      "id": 1010,
+      "organization_id": "98.765.432/0001-99",
+      "url": "https://adotaweb.org/pets/1010",
+      "type": "Cat",
+      "species": "Cat",
+      "breeds": {
+        "primary": "SRD",
+        "secondary": null,
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": { "primary": "Tricolor", "secondary": null, "tertiary": null },
+      "age": "Senior",
+      "gender": "Female",
+      "size": "Small",
+      "coat": "Medium",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "declawed": false,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": { "children": true, "dogs": false, "cats": true },
+      "tags": [],
+      "name": "Sasha",
+      "description": "Sou a Sasha, gosto de cochilar em caixas e adoro petiscos.",
+      "organization_animal_id": null,
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2025-06-10T13:20:00+0000",
+      "published_at": "2025-06-10T13:20:00+0000",
+      "distance": null,
+      "contact": {
+        "email": "oi@bicharada.org",
+        "phone": "(21) 2222-2222",
+        "address": {
+          "address1": "Rua das Flores, 45",
+          "address2": null,
+          "city": "Cravinhos",
+          "state": "SP",
+          "postcode": "14145-000",
+          "country": "BR"
+        }
+      },
+      "_links": {}
+    }
+  ]
+}
